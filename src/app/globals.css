@@ -44,6 +44,7 @@
   --grey:#393939;
   --clear-grey:#676767;
   --blue: #26367C;
+  --lg:20px;
 }
 
 @media (prefers-color-scheme: dark) {

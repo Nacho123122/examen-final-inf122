@@ -4,14 +4,53 @@
     background-color: var(--white);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
 }
 .box1{
-    height:424px;
+    height:300px;
     width: 375px;
-    background-color: var(--grey);
+    background-color: var(--white);
+    padding: 10px 10px 10px 10px;
+}
+.my{
+    color: var(--grey);
+}
+.name{
+    color: var(--blue);
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;  
+}
+.bulto{
+    width: 190px;
+}
+.image{
+    display: flex;
+    justify-content: center;
 }
 .box2{
-    height:424px;
+    height:350px;
     width: 375px;
-    background-color: var(--blue);
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+.h1{
+    color: var(--grey);
+    padding: 0 0 10px 0;
+}
+.p{
+    color: var(--clear-grey);
+}
+.p1{
+    color: var(--grey);
+    text-transform: capitalize;
+}
+.minbox2{
+    padding: 0 0 0 30px;
+}
+.minbox2 h1{
+    padding: 0 0 10px 0;
 }
